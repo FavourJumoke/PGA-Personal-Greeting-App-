@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PGA</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 h-screen flex flex-col items-center justify-center">
+    <div class="flex flex-wrap p-6 bg-white rounded shadow-lg">
+      <div>
+        <h1 class="text-3xl font-semibold mb-4">Welcome!</h1>
+        <form id="nameForm" class="mb-4">
+          <label for="name" class="block mb-1">Enter your name:</label>
+          <input type="text" id="nameInput" placeholder="Your name" class="w-full py-2 px-3 border rounded focus:outline-none focus:border-blue-500">
+          <button type="submit" class="mt-2 bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">Submit</button>
+        </form>
+        <p id="greeting" class="text-lg"></p>
+        <button id="clearButton" class="mt-4 bg-red-500 hover:bg-red-700 text-white py-2 px-4 rounded">Clear Name</button>
+      </div> 
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
